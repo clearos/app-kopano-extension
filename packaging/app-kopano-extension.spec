@@ -1,7 +1,7 @@
 
 Name: app-kopano-extension
 Epoch: 1
-Version: 2.3.0
+Version: 2.3.1
 Release: 1%{dist}
 Summary: Kopano Extension - Core
 License: ClearCenter
