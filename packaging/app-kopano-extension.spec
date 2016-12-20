@@ -17,7 +17,7 @@ Summary: Kopano Extension - Core
 Requires: app-base-core
 Requires: app-contact-extension-core
 Requires: app-mail-extension-core
-Requires: app-openldap-core >- 1:2.2.0
+Requires: app-openldap-core >= 1:2.2.0
 Requires: app-openldap-directory-core
 Requires: app-smtp-plugin-core
 Requires: app-users
