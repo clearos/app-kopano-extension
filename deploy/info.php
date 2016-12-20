@@ -31,6 +31,7 @@ $app['core_only'] = TRUE;
 $app['core_requires'] = array(
     'app-contact-extension-core',
     'app-mail-extension-core',
+    'app-openldap-core >- 1:2.2.0',
     'app-openldap-directory-core',
     'app-smtp-plugin-core',
     'app-users',
