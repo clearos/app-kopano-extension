@@ -1,7 +1,7 @@
 
 Name: app-kopano-extension
 Epoch: 1
-Version: 2.3.1
+Version: 2.3.2
 Release: 1%{dist}
 Summary: Kopano Extension - Core
 License: ClearCenter
@@ -59,6 +59,7 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/kopano_extension/packaging
+%exclude /usr/clearos/apps/kopano_extension/unify.json
 %dir /usr/clearos/apps/kopano_extension
 /usr/clearos/apps/kopano_extension/deploy
 /usr/clearos/apps/kopano_extension/language
