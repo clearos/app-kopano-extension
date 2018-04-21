@@ -5,8 +5,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'kopano_extension';
-$app['version'] = '2.3.2';
-$app['release'] = '1';
+$app['version'] = '2.5.0';
 $app['vendor'] = 'ClearCenter';
 $app['packager'] = 'ClearCenter';
 $app['license'] = 'ClearCenter';
@@ -34,7 +33,7 @@ $app['core_requires'] = array(
     'app-openldap-core >= 1:2.2.0',
     'app-openldap-directory-core',
     'app-smtp-plugin-core',
-    'app-users',
+    'app-users-core',
 );
 
 $app['core_file_manifest'] = array( 
